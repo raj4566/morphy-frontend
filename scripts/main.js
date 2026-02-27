@@ -1,7 +1,5 @@
 // API Configuration
-const API_BASE_URL = window.location.hostname === 'localhost' 
-    ? 'http://localhost:5000/api' 
-    : '/api'; // Change this to your production API URL
+const API_BASE_URL = 'https://morphy-backend.onrender.com/' 
 
 // Modal Functions
 function openModal() {
